@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-image: url('path/to/your/background-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white; /* Change text color to improve contrast */
+}
+
+.skillsection{
+    margin-left: 40px;
+}
+
+
+
+
+header img {
+    margin-right: 20px; /* Space between image and text */
+}
+
+.name {
+    flex-grow: 1; /* Allow the name div to take remaining space */
+   
+}
+
+.name h1,
+.name p {
+    margin: 0; /* Remove default margin */
+    color: #170202;
+}
+
+
+.description {
+    flex-grow: 1; /* Allows the description to take up remaining space */
+    margin-right: 100px; /* Space between the description and the image */
+    margin-left: 100px; /* Space between the description and the image */
+    font-size: 30px;
+}
+
+@media (max-width: 576px) {
+    .description {
+        margin-right: 0; /* Remove margin for smaller screens */
+        margin-bottom: 20px; /* Add bottom margin to separate image and text */
+    }
+}
+
+h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #A44A4A;
+    padding-bottom: 10px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.experience-item {
+    margin-top: 20px;
+    margin-left: 800px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.social-icons a {
+    font-size: 24px;
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 40px 20px;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+    }
+}
+
+section {
+    width: 100%; /* Full width of the screen */
+    padding: 40px 20px; /* Add some padding */
+    background-color: #f8f9fa; /* Ensures a consistent background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+}
+
+.container {
+    max-width: 100%; /* Limit the width of content */
+    margin: 0 auto; /* Center the container */
+   
+}
+
+#skills {
+    padding: 40px 0; /* Adds padding to the top and bottom */
+    background-color: #f8f9fa; /* Light background color for contrast */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.list-group-item {
+    font-size: 18px; /* Increase font size for better readability */
+}
+
